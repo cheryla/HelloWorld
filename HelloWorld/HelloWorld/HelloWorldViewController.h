@@ -1,5 +1,5 @@
 //
-//  iCodeBrowserViewController.h
+//  HelloWorldViewController.h
 //  HelloWorld
 //
 //  Created by cheryladay on 1/8/13.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface iCodeBrowserViewController : UIViewController
+@interface HelloWorldViewController : UIViewController
+
+-(IBAction)showMessage;
 
 @end
